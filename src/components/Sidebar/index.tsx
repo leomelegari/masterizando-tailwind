@@ -24,6 +24,8 @@ import * as Collapsable from "@radix-ui/react-collapsible";
 import { Button } from "../Button";
 
 export const Sidebar = () => {
+  // INÍCIO DARK MODE TOGGLE
+
   const [theme, setTheme] = useState<"light" | "dark">("light");
 
   const themeSwitcher = (
@@ -37,6 +39,8 @@ export const Sidebar = () => {
 
     setTheme(newTheme);
   };
+
+  // FIM DARK MODE TOGGLE
 
   return (
     <Collapsable.Root className="border-zinc-200 dark:bg-zinc-900 dark:border-zinc-800 p-4 flex flex-col gap-6 fixed left-0 top-0 right-0 data-[state=open]:bottom-0 data-[state=open]:h-screen lg:data-[state=closed]:bottom-0 lg:data-[state=closed]:h-screen z-20 bg-white lg:right-auto lg:w-80 lg:border-r lg:px-5 lg:py-8">
@@ -73,6 +77,8 @@ export const Sidebar = () => {
           <nav className="space-y-0.5">
             <NavItem title="Support" icon={LifeBuoy} />
             <NavItem title="Settings" icon={Cog} />
+
+            {/* Button que realiza o toggle dark/light on click */}
             <NavItem
               title="Theme"
               icon={theme === "light" ? MoonIcon : SunIcon}
