@@ -50,7 +50,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias/bibliotecas:
 
 - 1º - clone o repositório para seu computador;
 - 2º - no local clonado, abra o terminal e execute **npm install** para instalar as dependências do projeto;
-- 3º - abra o projeto com o comando **code . **.
+- 3º - abra o projeto com o comando **code .**.
 
 ## 💻 Acessando a versão web
 
