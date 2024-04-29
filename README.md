@@ -13,7 +13,7 @@
 <br>
 
 <p align="center">
-  <a href="https://kenzieshop-leomelegari-context-api.vercel.app/" target="_blank">Clique aqui</a> para acessar a versão web
+  <a href="https://masterizando-tailwind-eta.vercel.app/" target="_blank">Clique aqui</a> para acessar a versão web
 </p>
 
 ## 🖥️ Projeto
